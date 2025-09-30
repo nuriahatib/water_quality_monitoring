@@ -1,4 +1,4 @@
-sensor_id,timestamp,pH,turbidity,dissolved_oxygen,temperature
+.sensor_id,timestamp,pH,turbidity,dissolved_oxygen,temperature
 SENSOR_005,2023-01-01 00:00:00,6.48,2.43,7.87,21.81
 SENSOR_017,2023-01-01 00:30:00,7.04,4.39,7.49,18.51
 SENSOR_010,2023-01-01 01:00:00,6.69,3.78,6.9,20.96
