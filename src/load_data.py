@@ -8,3 +8,8 @@ def load_csv(filepath: str) -> pd.DataFrame:
     Returns:
         pd.DataFrame: Loaded data as a pandas DataFrame.
     """
+    try:
+        return pd.read_csv(filepath)
+    except FileNotFoundError:
+        print(f"Error: File not found at {filepath}")
+        return pd.DataFrame()
